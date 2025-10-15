@@ -38,7 +38,6 @@ public class ShapeView {
         System.out.println();
     }
 
-    // Метод для цвета — обязательно принимает List<Shape>
     public void displaySortedByColor(List<Shape> shapes) {
         System.out.println("---Відсортовані фігури за кольором---");
         for (Shape shape : shapes) {
